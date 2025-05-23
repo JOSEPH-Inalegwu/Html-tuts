@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>WanderWorld - My Travel Blog</title>
+</head>
+
+<style>
+    html {
+        scroll-behavior: smooth;
+    }
+
+    .destination {
+        border: 1px solid lightblue;
+    }
+
+</style>
+<body>
+
+  <header>
+    <h1>WanderWorld</h1>
+    <p>Welcome to my travel journal where I share stories, tips, and photos from my adventures across the globe.</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#destinations">Destinations</a></li>
+      <li><a href="#tips">Travel Tips</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+
+    <section id="destinations">
+      <h2>Top Destinations</h2>
+
+      <article class="destination">
+        <h3>Paris, France</h3>
+        <p>From the Eiffel Tower to quiet cafes, Paris is filled with beauty and romance. The sunset from Montmartre is unforgettable.</p>
+      </article>
+
+      <article class="destination">
+        <h3>Kyoto, Japan</h3>
+        <p>Explore serene temples, ancient shrines, and peaceful gardens. Kyoto during cherry blossom season is a dream come true.</p>
+      </article>
+
+      <article class="destination">
+        <h3>Cape Town, South Africa</h3>
+        <p>With stunning mountains and beaches, Cape Town is a paradise for explorers. Don’t miss the penguins at Boulders Beach!</p>
+      </article>
+    </section>
+
+
+    <section id="tips">
+      <h2>Travel Tips</h2>
+      <ul>
+        <li><strong>Pack light:</strong> Bring only what you need for easy mobility.</li>
+        <li><strong>Know local customs:</strong> Respect cultures and traditions.</li>
+        <li><strong>Keep backups:</strong> Carry extra copies of important documents.</li>
+        <li><strong>Use offline maps:</strong> Stay on track without internet.</li>
+      </ul>
+    </section>
+
+
+    <section id="gallery">
+      <h2>Photo Gallery</h2>
+      <p>A collection of memories and moments captured around the world.</p>
+
+      <div>
+        <div>
+            <img src="/Images/cape town.jpeg" alt="">
+        </div>
+        <div>
+            <img src="/Images/kyoto.jpeg" alt="">
+        </div>
+        <div>
+            <img src="/Images/london.jpeg" alt="">
+        </div>
+        <div>
+            <img src="/Images/paris.jpeg" alt="">
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form>
+        <label for="name">Name:</label><br/>
+        <input type="text" id="name" name="name" required> <br>
+
+        <label for="email">Email:</label><br/>
+        <input type="email" id="email" name="email" required> <br>
+
+        <label for="message">Message:</label><br/>
+        <textarea id="message" name="message" rows="5" required></textarea><br/>
+
+        <input type="submit" value="Send">
+      </form>
+    </section>
+
+  </main>
+
+  <footer class="destination">
+    <p>&copy; 2025 WanderWorld. All rights reserved.</p>
+  </footer>
+
+</body>
+
+</html>
